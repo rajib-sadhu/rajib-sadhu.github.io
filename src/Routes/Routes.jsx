@@ -4,12 +4,12 @@ import Home from "../pages/Home/Home";
 
 export const router = createBrowserRouter([
     {
-        path: '/rajib-sadhu-portfolio',
+        path: '/',
         element: <Main />,
         errorElement: '',
         children: [
             {
-                path: '/rajib-sadhu-portfolio',
+                path: '/',
                 element:<Home/>
             }
         ]
