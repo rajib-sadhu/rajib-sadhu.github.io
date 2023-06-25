@@ -4,7 +4,7 @@ import myPhoto from '../../assets/rajib_design.png'
 
 const Banner = () => {
     return (
-        <div className='h-screen bg-[#071632] grid grid-cols-2 items-center px-40'>
+        <div className='h-screen bg-[#071632] grid md:grid-cols-2 grid-cols-1 items-center px-40'>
             <img className='w-[30rem]' src={myPhoto} alt="" />
             <div className='text-white w-[30rem]'>
                 <h1 className='text-[4.3rem] font-semibold tracking-wider'> <span className='text-sm block -mb-5 ms-1'>I am</span> RAJIB SADHU</h1>
