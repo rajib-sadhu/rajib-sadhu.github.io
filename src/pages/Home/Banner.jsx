@@ -1,14 +1,21 @@
 
 import { Typewriter } from 'react-simple-typewriter';
-import myPhoto from '../../assets/rajib_design.png'
+import myPhoto from '../../assets/rajib_design.png';
+import { useState } from 'react';
+import SocialModal from '../../components/SocialModal';
 
 const Banner = () => {
+
+    const [socialModal, setSocialModal] = useState(false);
+
+    const handleCloseModal = () => setSocialModal(false);
+
     return (
-        <div className='h-screen bg-[#071632] grid md:grid-cols-2 grid-cols-1 items-center px-40'>
-            <img className='w-[30rem]' src={myPhoto} alt="" />
-            <div className='text-white w-[30rem]'>
-                <h1 className='text-[4.3rem] font-semibold tracking-wider'> <span className='text-sm block -mb-5 ms-1'>I am</span> RAJIB SADHU</h1>
-                <div className='flex justify-between text-xl uppercase font-semibold h-[2rem] text-[#a6fcb1] '>
+        <div className='h-screen bg-[#071632] grid md:grid-cols-2 grid-cols-1 items-center md:px-40 px-5 py-5'>
+            <img className='md:w-[30rem]' src={myPhoto} alt="" />
+            <div className='text-white md:w-[33rem]'>
+                <h1 className='md:text-[4.3rem] text-4xl font-semibold tracking-wider'> <span className='text-sm block ms-1'>I am</span> RAJIB SADHU</h1>
+                <div className='flex justify-between md:text-xl text-sm uppercase font-semibold h-[2rem] text-[#a6fcb1] mt-3'>
                     <Typewriter
                         words={['MERN Stack Developer', 'React JS Developer', 'Front End Developer', 'Full Stack Developer']}
                         loop={true}
@@ -23,8 +30,13 @@ const Banner = () => {
                     I’m a Web Developer. Actually I went to Engineer college for ECE and <span className='text-[#3ab049]' >returned</span> as a programmer. {`I'm`} currently focused on expanding my experience designing and developing high performing websites.
                 </p>
 
-                <div className='mt-5 head_button'>
+                <div className='mt-5 head_button md:w-[29rem]'>
                     <button className=''>Resume</button>
+                    <button onClick={() => setSocialModal(true)} className=''>Contact</button>
+                </div>
+
+                <div>
+                    {socialModal && <SocialModal handleCloseModal={handleCloseModal} />}
                 </div>
             </div>
         </div>
