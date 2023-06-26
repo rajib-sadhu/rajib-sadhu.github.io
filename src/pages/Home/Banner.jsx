@@ -41,10 +41,10 @@ const Banner = () => {
                         <button onClick={() => setSocialModal(true)} className=''>Contact</button>
                     </div>
 
+                </Slide>
                     <div>
                         {socialModal && <SocialModal handleCloseModal={handleCloseModal} />}
                     </div>
-                </Slide>
             </div>
         </div>
     );
