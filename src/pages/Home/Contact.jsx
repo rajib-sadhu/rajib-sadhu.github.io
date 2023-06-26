@@ -1,4 +1,4 @@
-import { Zoom } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import { toast } from "react-hot-toast";
 import { AiFillFacebook, AiFillGithub, AiFillLinkedin, AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
 import { BiLogoGmail } from "react-icons/bi";
@@ -16,7 +16,7 @@ const Contact = () => {
 
     return (
         <div className="my-20 lg:px-36 px-5 overflow-hidden" id='contact'>
-            <Zoom>
+            <Fade>
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
                     <div className="space-y-4">
                         <h2 className="md:text-6xl text-2xl font-">Let{`'`}s connect</h2>
@@ -55,7 +55,7 @@ const Contact = () => {
                     </div>
 
                 </div>
-            </Zoom>
+            </Fade>
         </div>
     );
 };
