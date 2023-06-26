@@ -16,11 +16,11 @@ const SocialModal = ({ handleCloseModal }) => {
                     </div>
                     <div className='mt-10' >
                         <div className='text-5xl flex md:gap-2 gap-5 justify-around flex-wrap'>
-                            <Link><AiFillLinkedin className='text-[#28579d]' /></Link>
-                            <Link><AiFillFacebook className='text-sky-800' /></Link>
-                            <Link><AiFillGithub className='text-green-800' /></Link>
-                            <Link><AiOutlineTwitter className='text-sky-500' /></Link>
-                            <Link><AiOutlineInstagram className='text-red-500' /></Link>
+                            <Link><AiFillLinkedin className='text-[#28579d] social-icon' /></Link>
+                            <Link><AiFillFacebook className='text-sky-800 social-icon' /></Link>
+                            <Link><AiFillGithub className='text-green-800 social-icon' /></Link>
+                            <Link><AiOutlineTwitter className='text-sky-500 social-icon' /></Link>
+                            <Link><AiOutlineInstagram className='text-red-500 social-icon' /></Link>
                         </div>
                         <div className='text-center mt-10 font-semibold md:text-xl'>
                             <div className='flex md:items-center md:flex-row flex-col md:gap-3 justify-center'>

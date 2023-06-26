@@ -22,11 +22,11 @@ const MySkills = () => {
     ]
 
     return (
-        <div className="my-20 md:px-36 px-5">
+        <div className="my-20 lg:px-36 px-5" id="skills" >
             <div>
                 <h2 className="text-3xl font-bold">My Skills</h2>
             </div>
-            <div className="grid md:grid-cols-2 grid-cols-1 py-5">
+            <div className="grid lg:grid-cols-2 grid-cols-1 py-5">
                 <div className="grid md:grid-cols-3 grid-cols-1 gap-3" >
                     <div className="space-y-2 shadow-xl p-5 bg-slate-100">
                         <div className="flex items-center">

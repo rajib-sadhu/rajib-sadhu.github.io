@@ -96,13 +96,13 @@ progress::-webkit-progress-bar {
 
 .project-div {
    position: relative;
-   background-color: white;
+   /* background-color: white; */
 }
 
 .project-links {
    position: absolute;
-   z-index: -10;
-   bottom: 0;
+   /* z-index: ; */
+   bottom: 10;
    right: 0;
    left: 0;
    padding-left: 5px;
@@ -110,8 +110,10 @@ progress::-webkit-progress-bar {
    background-color: rgb(243, 243, 243);
    border-end-end-radius: 10px;
    border-end-start-radius: 10px;
+   opacity: 0;
 }
 
 .project-div:hover .project-links{
-   bottom: -3rem;
+   bottom: 10;
+   opacity: 1;
 }

@@ -7,12 +7,15 @@ import { Link } from 'react-router-dom';
 
 import reelCamp from '../../assets/reel-camp.png'
 import happyPlaytime from '../../assets/happy-playtime.png'
+import incogniChat from '../../assets/incogniChat.png'
 import food4you from '../../assets/food4you.png'
 import ticTacToe from '../../assets/tictactoe.png'
 import farniture from '../../assets/farniture-1.png'
 import playerSign from '../../assets/player-sign.png'
+import { useState } from 'react';
 
 const Projects = () => {
+
 
     let images = [
         {
@@ -21,7 +24,7 @@ const Projects = () => {
             subTitle: 'full stack',
             img: reelCamp,
             disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
-            tech: ['react js', 'node js', 'express js', 'firebase', 'mongodb', 'tailwind'],
+            tech: ['react js', 'node js', 'express js', 'firebase', 'mongoDB', 'tailwind'],
             liveLink: 'https://rs-reel-camp.web.app',
             gitLink: 'https://github.com/rajib-sadhu/reel-camp-client'
         },
@@ -31,12 +34,22 @@ const Projects = () => {
             subTitle: 'full stack',
             img: happyPlaytime,
             disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
-            tech: ['react js', 'node js', 'express js', 'firebase', 'mongodb', 'tailwind'],
+            tech: ['react js', 'node js', 'express js', 'firebase', 'mongoDB', 'tailwind'],
             liveLink: 'https://rs-happy-playtime.web.app',
             gitLink: 'https://github.com/rajib-sadhu'
         },
         {
             id: 3,
+            title: 'IncogniChat',
+            subTitle: 'Full Stack',
+            img: incogniChat,
+            disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
+            tech: ['react js', 'node js', 'express js', 'firebase', 'tailwind', 'mongoDB'],
+            liveLink: 'https://rs-incognichat.web.app/h',
+            gitLink: 'https://github.com/rajib-sadhu'
+        },
+        {
+            id: 4,
             title: 'Food4You',
             subTitle: 'Front End',
             img: food4you,
@@ -46,7 +59,7 @@ const Projects = () => {
             gitLink: 'https://github.com/rajib-sadhu'
         },
         {
-            id: 4,
+            id: 5,
             title: 'Tic Tac Toe',
             subTitle: 'Game',
             img: ticTacToe,
@@ -56,7 +69,7 @@ const Projects = () => {
             gitLink: 'https://github.com/rajib-sadhu'
         },
         {
-            id: 5,
+            id: 6,
             title: 'Furniture',
             subTitle: 'Front end page',
             img: farniture,
@@ -66,7 +79,7 @@ const Projects = () => {
             gitLink: 'https://github.com/rajib-sadhu'
         },
         {
-            id: 5,
+            id: 7,
             title: 'Player Sign',
             subTitle: 'Front end page',
             img: playerSign,
@@ -75,20 +88,22 @@ const Projects = () => {
             liveLink: 'https://rs-cricket-matchboard.netlify.app/',
             gitLink: 'https://github.com/rajib-sadhu'
         },
-
-
     ];
 
+
+    const [allProjects, setAllProject] = useState(images.slice(0, 6))
+
+
     return (
-        <div className="my-20 md:px-36 px-5">
+        <div className="my-20 lg:px-36 px-5" id='projects'>
             <div>
                 <h2 className="text-3xl font-bold">Projects</h2>
             </div>
-            <div className="grid md:grid-cols-3 grid-cols-1 gap-20 mt-10">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 mt-10">
 
                 {
-                    images.map((item) => <div key={item.id} className='project-div' >
-                        <div className='shadow-xl rounded-lg overflow-hidden relative h-[24.5rem]'>
+                    allProjects.map((item) => <div key={item.id} className='project-div min-h-[28rem]' >
+                        <div className='shadow-xl rounded-lg overflow-hidden relative min-h-[24.5rem]'>
                             <div>
                                 <img className='h-[12rem] w-full object-cover hover:object-contain bg-cover'
                                     style={{
@@ -123,6 +138,15 @@ const Projects = () => {
                     </div>)
                 }
 
+
+            </div>
+            <div className='text-center pt-5'>
+                {
+                    allProjects.length > 6 ?
+                        <button onClick={() => setAllProject(images.slice(0,6))} className='bg-sky-600 px-5 pt-2 pb-2 uppercase text-white text-sm rounded-md' >See Less</button>
+                        :
+                        <button onClick={() => setAllProject(images)} className='bg-sky-600 px-5 pt-2 pb-2 uppercase text-white text-sm rounded-md' >See All</button>
+                }
             </div>
         </div>
     );

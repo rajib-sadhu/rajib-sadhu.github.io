@@ -11,10 +11,10 @@ const Banner = () => {
     const handleCloseModal = () => setSocialModal(false);
 
     return (
-        <div className='h-screen bg-[#071632] grid md:grid-cols-2 grid-cols-1 items-center md:px-40 px-5 py-5'>
-            <img className='md:w-[30rem]' src={myPhoto} alt="" />
-            <div className='text-white md:w-[33rem]'>
-                <h1 className='md:text-[4.3rem] text-4xl font-semibold tracking-wider'> <span className='text-sm block ms-1'>I am</span> RAJIB SADHU</h1>
+        <div className='h-screen bg-[#071632] grid lg:grid-cols-2 grid-cols-1 items-center lg::px-40 px-5 py-5'>
+            <img className='md:w-[30rem] mx-auto' src={myPhoto} alt="" />
+            <div className='text-white md:w-[33rem] lg:mx-0 mx-auto'>
+                <h1 className='md:text-[4.3rem] text-4xl font-semibold tracking-wider'> <span className='text-sm block ms-1 lg:mb-0 md:mb-1'>I am</span> RAJIB SADHU</h1>
                 <div className='flex justify-between md:text-xl text-sm uppercase font-semibold h-[2rem] text-[#a6fcb1] mt-3'>
                     <Typewriter
                         words={['MERN Stack Developer', 'React JS Developer', 'Front End Developer', 'Full Stack Developer']}
