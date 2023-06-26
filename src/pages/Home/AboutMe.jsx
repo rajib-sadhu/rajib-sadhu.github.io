@@ -6,7 +6,7 @@ const AboutMe = () => {
 
 
     return (
-        <div className="my-20 lg:px-36 px-5 overflow-hidden" id='about'>
+        <div className="py-20 lg:px-36 px-5 overflow-hidden" id='about'>
             <div>
                 <h2 className="text-3xl font-bold">About Me</h2>
             </div>

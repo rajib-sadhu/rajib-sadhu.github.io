@@ -36,11 +36,11 @@ const Contact = () => {
                     </div>
                 </div>
                 <div>
-                    <div className='p-5' id='bookTable'>
+                    <div className='px-5' id='bookTable'>
 
                         <form className='grid grid-cols-1 gap-2' onSubmit={handleSendEmail}>
                             <input className='table-input' type="text" placeholder='Name' />
-                            <input className='table-input' type="text" placeholder='Email' />
+                            <input className='table-input' type="email" placeholder='Email' />
                             <textarea className="table-input" name="" id="" cols="30" rows="10" placeholder="Write your feedback"></textarea>
                             <input type="submit" value='Send'
                                 className='table-input text-white cursor-pointer uppercase bg-[#071632] duration-200 hover:bg-[#0f357c] font-bold'

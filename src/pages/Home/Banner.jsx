@@ -4,6 +4,8 @@ import myPhoto from '../../assets/rajib_design.png';
 import { useState } from 'react';
 import SocialModal from '../../components/SocialModal';
 
+import resume from '../../assets/rajib-resume.docx.pdf';
+
 const Banner = () => {
 
     const [socialModal, setSocialModal] = useState(false);
@@ -31,7 +33,7 @@ const Banner = () => {
                 </p>
 
                 <div className='mt-5 head_button md:w-[29rem]'>
-                    <button className=''>Resume</button>
+                    <a href={resume} target='_' className=''><button>Resume</button></a>
                     <button onClick={() => setSocialModal(true)} className=''>Contact</button>
                 </div>
 
