@@ -20,6 +20,7 @@
     "react-awesome-reveal": "^4.2.3",
     "react-awesome-slider": "^4.1.0",
     "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
     "react-icons": "^4.10.1",
     "react-parallax-tilt": "^1.7.150",
     "react-particles": "^2.10.1",

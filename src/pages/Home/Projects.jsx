@@ -13,6 +13,7 @@ import ticTacToe from '../../assets/tictactoe.png'
 import farniture from '../../assets/farniture-1.png'
 import playerSign from '../../assets/player-sign.png'
 import { useState } from 'react';
+import { toast } from 'react-hot-toast';
 
 const Projects = () => {
 
@@ -110,7 +111,7 @@ const Projects = () => {
                                         backgroundImage: `url(${item.img})`
                                     }}
                                     src={item.img} alt="" />
-                                <Link className='absolute top-3 right-3' title='See project detail' ><BsFillInfoCircleFill className='text-sky-100 text-xl hover:text-sky-400 bg-black rounded-[50%] p-[1px]' /></Link>
+                                <Link onClick={()=>{ toast.error('Sorry! project details coming soon.');}} className='absolute top-3 right-3' title='See project detail' ><BsFillInfoCircleFill className='text-sky-100 text-xl hover:text-sky-400 bg-black rounded-[50%] p-[1px]' /></Link>
                             </div>
                             <div className='p-5'>
                                 <div className='relative' >
