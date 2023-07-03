@@ -33,7 +33,7 @@ const Banner = () => {
                         />
                     </div>
                     <p className='font-semibold mt-5'>
-                        I’m a Web Developer. Actually I went to Engineer college for ECE and <span className='text-[#3ab049]' >returned</span> as a programmer. {`I'm`} currently focused on expanding my experience designing and developing high performing websites.
+                        I’m a Web Developer. Actually I went to Engineering college for ECE and <span className='text-[#3ab049]' >returned</span> as a programmer. {`I'm`} currently focused on expanding my experience designing and developing high performing websites.
                     </p>
 
                     <div className='mt-5 head_button md:w-[29rem]'>
