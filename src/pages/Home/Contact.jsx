@@ -1,5 +1,5 @@
 import { Fade } from "react-awesome-reveal";
-// import { toast } from "react-hot-toast";
+import { toast } from "react-hot-toast";
 import { AiFillFacebook, AiFillGithub, AiFillLinkedin, AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
 import { BiLogoGmail } from "react-icons/bi";
 import { Link } from "react-router-dom";
@@ -16,6 +16,7 @@ const Contact = () => {
         emailjs.sendForm('service_4allhpy', 'template_dtcuiq8', form.current, 'TzSPHZpEHdEDqvC_a')
             .then((result) => {
                 console.log(result.text);
+                toast.success('Message send successfully')
             }, (error) => {
                 console.log(error.text);
             });
