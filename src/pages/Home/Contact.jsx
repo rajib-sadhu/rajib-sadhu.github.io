@@ -1,17 +1,28 @@
 import { Fade } from "react-awesome-reveal";
-import { toast } from "react-hot-toast";
+// import { toast } from "react-hot-toast";
 import { AiFillFacebook, AiFillGithub, AiFillLinkedin, AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
 import { BiLogoGmail } from "react-icons/bi";
 import { Link } from "react-router-dom";
-
+import emailjs from '@emailjs/browser';
+import { useRef } from "react";
 
 const Contact = () => {
+    const form = useRef();
 
 
-    const handleSendEmail = e => {
+    const sendEmail = (e) => {
         e.preventDefault();
-        toast.error('Sorry! send direct email coming soon.');
-    }
+
+        emailjs.sendForm('service_4allhpy', 'template_dtcuiq8', form.current, 'TzSPHZpEHdEDqvC_a')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
+
+
 
 
     return (
@@ -40,10 +51,10 @@ const Contact = () => {
                     <div>
                         <div className='px-5' id='bookTable'>
 
-                            <form className='grid grid-cols-1 gap-2' onSubmit={handleSendEmail}>
-                                <input className='table-input' type="text" placeholder='Name' />
-                                <input className='table-input' type="email" placeholder='Email' />
-                                <textarea className="table-input" name="" id="" cols="30" rows="10" placeholder="Write your feedback"></textarea>
+                            <form ref={form} className='grid grid-cols-1 gap-2' onSubmit={sendEmail}>
+                                <input className='table-input' type="text" name="from_name" placeholder='Name' />
+                                <input className='table-input' type="email" name="from_email" placeholder='Email' />
+                                <textarea className="table-input" name="message" id="" cols="30" rows="10" placeholder="Write your feedback"></textarea>
                                 <input type="submit" value='Send'
                                     className='table-input text-white cursor-pointer uppercase bg-[#071632] duration-200 hover:bg-[#0f357c] font-bold'
                                     style={{
