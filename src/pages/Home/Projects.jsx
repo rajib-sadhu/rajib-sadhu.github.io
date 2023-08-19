@@ -25,7 +25,7 @@ const Projects = () => {
             title: 'Reel Camp',
             subTitle: 'full stack',
             img: reelCamp,
-            disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
+            disc: "LElevate summer breaks with film skills. Full-stack e-learning hub lets students learn filmmaking, while instructors share classes.",
             tech: ['react js', 'node js', 'express js', 'firebase', 'mongoDB', 'tailwind'],
             liveLink: 'https://rs-reel-camp.web.app',
             gitLink: 'https://github.com/rajib-sadhu/reel-camp-client'
@@ -35,47 +35,47 @@ const Projects = () => {
             title: 'happy Playtime',
             subTitle: 'full stack',
             img: happyPlaytime,
-            disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
+            disc: " Showcase your toys online. Add and display toy details seamlessly on the website, celebrating cherished playthings.",
             tech: ['react js', 'node js', 'express js', 'firebase', 'mongoDB', 'tailwind'],
             liveLink: 'https://rs-happy-playtime.web.app',
-            gitLink: 'https://github.com/rajib-sadhu'
+            gitLink: 'https://github.com/rajib-sadhu/happy-playtime-client'
         },
         {
             id: 3,
             title: 'IncogniChat',
             subTitle: 'Full Stack',
             img: incogniChat,
-            disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
+            disc: "Send anonymous links for replies. Engage in private conversations, identities concealed. Bridge connections while preserving anonymity.",
             tech: ['react js', 'node js', 'express js', 'firebase', 'tailwind', 'mongoDB'],
-            liveLink: 'https://rs-incognichat.web.app/h',
-            gitLink: 'https://github.com/rajib-sadhu'
+            liveLink: 'https://incognichat-app.web.app/',
+            gitLink: 'https://github.com/rajib-sadhu/rs-incognichat'
         },
         {
             id: 4,
             title: 'Food4You',
             subTitle: 'Front End',
             img: food4you,
-            disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
+            disc: "Explore top chefs and delectable recipes. Exclusive access post-login to savor culinary delights and culinary maestros.",
             tech: ['react js', 'node js', 'express js', 'firebase', 'tailwind'],
             liveLink: 'https://rs-food4you.web.app/',
-            gitLink: 'https://github.com/rajib-sadhu'
+            gitLink: 'https://github.com/rajib-sadhu/food4you-client-side'
         },
         {
             id: 5,
             title: 'Tic Tac Toe',
             subTitle: 'Game',
             img: ticTacToe,
-            disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
+            disc: "Classic two-player game. Experience fun clashes, unveil winners as the game concludes, and the champion emerges.",
             tech: ['Html', 'css', 'javascript'],
             liveLink: 'https://rajib-sadhu.github.io/tictactoe',
-            gitLink: 'https://github.com/rajib-sadhu'
+            gitLink: 'https://github.com/rajib-sadhu/tictactoe'
         },
         {
             id: 6,
             title: 'Furniture',
             subTitle: 'Front end page',
             img: farniture,
-            disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
+            disc: "Engaging front-end design showcase. Scroll to experience captivating animations and designs, offering a visual delight in furniture.",
             tech: ['react js', 'css', 'tailwind'],
             liveLink: 'https://rs-furniture-store.netlify.app',
             gitLink: 'https://github.com/rajib-sadhu'
@@ -85,10 +85,10 @@ const Projects = () => {
             title: 'Player Sign',
             subTitle: 'Front end page',
             img: playerSign,
-            disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
+            disc: "Intuitive front-end page. Easily sign up and manage players. Effortlessly add and remove players with user-friendly controls.",
             tech: ['html', 'css', 'javascript', 'tailwind'],
-            liveLink: 'https://rs-cricket-matchboard.netlify.app/',
-            gitLink: 'https://github.com/rajib-sadhu'
+            liveLink: 'https://rs-player-sign.netlify.app/',
+            gitLink: 'https://github.com/rajib-sadhu/player-sign'
         },
     ];
 

@@ -53,9 +53,9 @@ const Contact = () => {
                         <div className='px-5' id='bookTable'>
 
                             <form ref={form} className='grid grid-cols-1 gap-2' onSubmit={sendEmail}>
-                                <input className='table-input' type="text" name="from_name" placeholder='Name' />
-                                <input className='table-input' type="email" name="from_email" placeholder='Email' />
-                                <textarea className="table-input" name="message" id="" cols="30" rows="10" placeholder="Write your feedback"></textarea>
+                                <input className='table-input' type="text" name="from_name" placeholder='Name' required />
+                                <input className='table-input' type="email" name="from_email" placeholder='Email' required />
+                                <textarea className="table-input" name="message" id="" cols="30" rows="10" placeholder="Write your feedback" required></textarea>
                                 <input type="submit" value='Send'
                                     className='table-input text-white cursor-pointer uppercase bg-[#071632] duration-200 hover:bg-[#0f357c] font-bold'
                                     style={{
