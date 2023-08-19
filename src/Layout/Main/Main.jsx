@@ -25,6 +25,8 @@ const Main = () => {
         )
       }
 
+      
+
     return (
         <div>
             <div className="fixed top-0 z-50">

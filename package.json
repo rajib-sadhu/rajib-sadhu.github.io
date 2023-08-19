@@ -24,6 +24,7 @@
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.10.1",
     "react-parallax-tilt": "^1.7.150",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.13.0",
     "react-simple-typewriter": "^5.0.1",
     "recharts": "^2.7.2",
