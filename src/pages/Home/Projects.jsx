@@ -31,7 +31,7 @@ const Projects = () => {
                         <div className='project-div min-h-[28rem]' >
                             <div className='shadow-xl rounded-lg overflow-hidden relative min-h-[24.5rem]'>
                                 <div>
-                                    <img className='h-[12rem] w-full object-cover hover:object-contain bg-cover'
+                                    <img className='h-[12rem] w-full object-cover hover:object-contain bg-cover object-center'
                                         style={{
                                             backgroundImage: `url(${item?.images[0]})`
                                         }}

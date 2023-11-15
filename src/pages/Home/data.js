@@ -51,27 +51,23 @@ const data = [
         gitLink: 'https://github.com/rajib-sadhu/happy-playtime-client'
     },
     {
-        id: 3,
-        title: 'IncogniChat',
-        subTitle: 'Full Stack',
+        id: 8,
+        title: 'Weather App',
+        subTitle: 'Front End',
         images: [
-            'https://i.ibb.co/nPZ7f6c/Screenshot-2023-08-19-130453.png',
-            'https://i.ibb.co/tL2XjCp/Screenshot-2023-08-19-175908.png',
-            'https://i.ibb.co/RPZ72HY/Screenshot-2023-08-19-175829.png',
-            'https://i.ibb.co/10CPzgN/Screenshot-2023-08-19-180109.png'
+            'https://i.ibb.co/0ssd4m9/Screenshot-2023-11-15-193341.png',
+            'https://i.ibb.co/KwQ012Z/Screenshot-2023-11-15-193408.png',
         ],
-        disc: "Send anonymous links for replies. Engage in private conversations, identities concealed. Bridge connections while preserving anonymity.",
+        disc: "WeatherHub is a responsive and user-friendly weather website crafted. It taps into a free live API to deliver real-time weather updates.",
         features: [
-            'Enjoy seamless usability across devices with a fully responsive design.',
-            ' Log in to access the dashboard, ensuring intuitive navigation and control.',
-            'Embrace secure communication with robust end-to-end encryption for all interactions.',
-            'Share links to initiate anonymous conversations; no messenger names are revealed.',
-            'Safeguard confidentiality as anyone can reply anonymously to shared links.',
-            'Prioritize user safety with a fully secure platform, enhancing trust and peace of mind.'
+            'Current overview with temperature, humidity, and wind flow.',
+            'Responsive design adapting seamlessly to various devices.',
+            'Search functionality for personalized city weather.',
+            'Live API integration ensuring accurate and up-to-date weather data.'
         ],
-        tech: ['react js', 'node js', 'express js', 'firebase', 'tailwind', 'mongoDB'],
-        liveLink: 'https://incognichat-app.web.app/',
-        gitLink: 'https://github.com/rajib-sadhu/rs-incognichat'
+        tech: ['HTML', 'CSS', 'Javascript', 'tailwind', 'Open API'],
+        liveLink: 'https://rs-weather.netlify.app/',
+        gitLink: 'https://github.com/rajib-sadhu/weather-app'
     },
     {
         id: 4,
@@ -147,7 +143,7 @@ const data = [
             'https://i.ibb.co/MDxKJdv/Screenshot-2023-08-19-181116.png'
         ],
         disc: "Intuitive front-end page. Easily sign up and manage players. Effortlessly add and remove players with user-friendly controls.",
-        features:[
+        features: [
             'This site for sign football player and make fun',
             'Device responsive design there',
             'Harness the power of pure vanilla JavaScript.'
@@ -155,6 +151,29 @@ const data = [
         tech: ['html', 'css', 'javascript', 'tailwind'],
         liveLink: 'https://rs-player-sign.netlify.app/',
         gitLink: 'https://github.com/rajib-sadhu/player-sign'
+    },
+    {
+        id: 3,
+        title: 'IncogniChat',
+        subTitle: 'Full Stack',
+        images: [
+            'https://i.ibb.co/nPZ7f6c/Screenshot-2023-08-19-130453.png',
+            'https://i.ibb.co/tL2XjCp/Screenshot-2023-08-19-175908.png',
+            'https://i.ibb.co/RPZ72HY/Screenshot-2023-08-19-175829.png',
+            'https://i.ibb.co/10CPzgN/Screenshot-2023-08-19-180109.png'
+        ],
+        disc: "Send anonymous links for replies. Engage in private conversations, identities concealed. Bridge connections while preserving anonymity.",
+        features: [
+            'Enjoy seamless usability across devices with a fully responsive design.',
+            ' Log in to access the dashboard, ensuring intuitive navigation and control.',
+            'Embrace secure communication with robust end-to-end encryption for all interactions.',
+            'Share links to initiate anonymous conversations; no messenger names are revealed.',
+            'Safeguard confidentiality as anyone can reply anonymously to shared links.',
+            'Prioritize user safety with a fully secure platform, enhancing trust and peace of mind.'
+        ],
+        tech: ['react js', 'node js', 'express js', 'firebase', 'tailwind', 'mongoDB'],
+        liveLink: 'https://incognichat-app.web.app/',
+        gitLink: 'https://github.com/rajib-sadhu/rs-incognichat'
     },
 ];
 
