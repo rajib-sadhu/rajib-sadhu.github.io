@@ -94,6 +94,26 @@ const data = [
         gitLink: 'https://github.com/rajib-sadhu/food4you-client-side'
     },
     {
+        id: 9,
+        title: 'Yamaha motor site',
+        subTitle: 'Front end page',
+        images: [
+            'https://i.ibb.co/VwWYyLL/Screenshot-2024-01-08-124453.png',
+            'https://i.ibb.co/8spdWp0/Screenshot-2024-01-08-132235.png',
+            'https://i.ibb.co/0CHK2YW/Screenshot-2024-01-08-132253.png'
+        ],
+        disc: "Engaging front-end design showcase. offering bikes and scooter, gallery section, toggle button and eye catching front end page.",
+        features: [
+            'This is the just a landing page',
+            'Responsive Design',
+            'Eye catching animations when user scroll this',
+            'This UI make by React'
+        ],
+        tech: ['react', 'tailwind', 'css', 'javascript'],
+        liveLink: 'https://rajib-sadhu.github.io/tictactoe',
+        gitLink: 'https://github.com/rajib-sadhu/tictactoe'
+    },
+    {
         id: 5,
         title: 'Tic Tac Toe',
         subTitle: 'Game',
