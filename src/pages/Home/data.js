@@ -110,8 +110,8 @@ const data = [
             'This UI make by React'
         ],
         tech: ['react', 'tailwind', 'css', 'javascript'],
-        liveLink: 'https://rajib-sadhu.github.io/tictactoe',
-        gitLink: 'https://github.com/rajib-sadhu/tictactoe'
+        liveLink: 'https://rs-yamaha.netlify.app/',
+        gitLink: 'https://github.com/rajib-sadhu'
     },
     {
         id: 5,
