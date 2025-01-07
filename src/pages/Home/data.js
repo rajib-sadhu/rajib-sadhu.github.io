@@ -70,6 +70,29 @@ const data = [
         gitLink: 'https://github.com/rajib-sadhu/weather-app'
     },
     {
+        id: 3,
+        title: 'IncogniChat',
+        subTitle: 'Full Stack',
+        images: [
+            'https://i.ibb.co/nPZ7f6c/Screenshot-2023-08-19-130453.png',
+            'https://i.ibb.co/tL2XjCp/Screenshot-2023-08-19-175908.png',
+            'https://i.ibb.co/RPZ72HY/Screenshot-2023-08-19-175829.png',
+            'https://i.ibb.co/10CPzgN/Screenshot-2023-08-19-180109.png'
+        ],
+        disc: "Send anonymous links for replies. Engage in private conversations, identities concealed. Bridge connections while preserving anonymity.",
+        features: [
+            'Enjoy seamless usability across devices with a fully responsive design.',
+            ' Log in to access the dashboard, ensuring intuitive navigation and control.',
+            'Embrace secure communication with robust end-to-end encryption for all interactions.',
+            'Share links to initiate anonymous conversations; no messenger names are revealed.',
+            'Safeguard confidentiality as anyone can reply anonymously to shared links.',
+            'Prioritize user safety with a fully secure platform, enhancing trust and peace of mind.'
+        ],
+        tech: ['react js', 'node js', 'express js', 'firebase', 'tailwind', 'mongoDB'],
+        liveLink: 'https://incognichat.netlify.app/',
+        gitLink: 'https://github.com/rajib-sadhu/rs-incognichat'
+    },
+    {
         id: 4,
         title: 'Food4You',
         subTitle: 'Front End',
@@ -172,29 +195,7 @@ const data = [
         liveLink: 'https://rs-player-sign.netlify.app/',
         gitLink: 'https://github.com/rajib-sadhu/player-sign'
     },
-    {
-        id: 3,
-        title: 'IncogniChat',
-        subTitle: 'Full Stack',
-        images: [
-            'https://i.ibb.co/nPZ7f6c/Screenshot-2023-08-19-130453.png',
-            'https://i.ibb.co/tL2XjCp/Screenshot-2023-08-19-175908.png',
-            'https://i.ibb.co/RPZ72HY/Screenshot-2023-08-19-175829.png',
-            'https://i.ibb.co/10CPzgN/Screenshot-2023-08-19-180109.png'
-        ],
-        disc: "Send anonymous links for replies. Engage in private conversations, identities concealed. Bridge connections while preserving anonymity.",
-        features: [
-            'Enjoy seamless usability across devices with a fully responsive design.',
-            ' Log in to access the dashboard, ensuring intuitive navigation and control.',
-            'Embrace secure communication with robust end-to-end encryption for all interactions.',
-            'Share links to initiate anonymous conversations; no messenger names are revealed.',
-            'Safeguard confidentiality as anyone can reply anonymously to shared links.',
-            'Prioritize user safety with a fully secure platform, enhancing trust and peace of mind.'
-        ],
-        tech: ['react js', 'node js', 'express js', 'firebase', 'tailwind', 'mongoDB'],
-        liveLink: 'https://incognichat-app.web.app/',
-        gitLink: 'https://github.com/rajib-sadhu/rs-incognichat'
-    },
+   
 ];
 
 
