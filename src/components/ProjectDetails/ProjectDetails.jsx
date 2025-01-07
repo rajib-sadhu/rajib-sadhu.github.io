@@ -13,7 +13,7 @@ const ProjectDetails = ({ project}) => {
                         <Carousel>
                             {
                                 project?.images.map((v, i) => <div key={i}>
-                                    <img src={v} className="border-2 border-red-700" />
+                                    <img src={v} className="border-2 border-red-700" /> 
                                 </div>)
                             }
                         </Carousel>
